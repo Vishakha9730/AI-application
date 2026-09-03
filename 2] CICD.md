@@ -109,25 +109,3 @@
         git remote add origin YOUR_GITHUB_URL
         git push -u origin main
 
-After pushing, GitHub automatically runs:
-
-Code pushed
-     ↓
-GitHub Actions
-     ↓
-Install Python
-     ↓
-Install Libraries
-     ↓
-Run pytest
-     ↓
-    Test
-   ↙    ↘
-PASS    FAIL
- ↓       ↓
-Done    Stop
-⭐ In one line
-
-Developer → GitHub → GitHub Actions → Install Dependencies → Test AI Model → Pass/Fail
-
-This is a very simple CI pipeline for an AI application, without FastAPI or Docker.
